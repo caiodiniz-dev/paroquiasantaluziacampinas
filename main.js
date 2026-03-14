@@ -47,8 +47,8 @@ var communities = [
     name: "Betania Franciscana",
     address: "Rua Praxiteles Ferreira Neves, n.101 - Vila Georgina",
     schedule: [
-      { day: "Segunda a sabado", items: ["6h50: Missa"] },
-      { day: "Domingo", items: ["16hs: Missa"] }
+      { day: "Segunda a sabado", items: ["7h: Missa"] },
+      { day: "Domingo", items: ["16h: Missa"] }
     ]
   },
   {
@@ -57,7 +57,7 @@ var communities = [
     schedule: [
       { day: "Quarta-feira", items: ["1a Quarta, 19h30: Missa"] },
       { day: "Sexta-feira", items: ["19hs: Santo Terco"] },
-      { day: "Sabado", items: ["20hs: Missa"] }
+      { day: "Sabado", items: ["17hs: Missa"] }
     ]
   },
   {
