@@ -731,6 +731,26 @@ var eventosData = {
       { icone: 'cruz', titulo: 'Semana Santa', valor: '29/03 a 10/04' }
     ]
   },
+  'cirio-pascal': {
+    badge: 'Círio Pascal',
+    titulo: 'Círio Pascal Familiar - Celebre a Páscoa em Família',
+    imagem: 'assets/cirio pascal.jpeg',
+    texto: [
+      'A <strong>Paróquia Santa Luzia</strong> convida você e sua família para celebrar a Páscoa com o <strong>Círio Pascal Familiar</strong>.',
+      'O Círio Pascal é um sinal da presença de <strong>Cristo Ressuscitado</strong>, luz que ilumina nossas casas e nossas vidas.',
+      'Celebre este momento especial em família, rezando e renovando a fé na <strong>Ressurreição de Jesus</strong>.',
+      'Adquira o seu <strong>Círio Pascal Familiar</strong> e participe conosco desta tradição da Igreja.',
+      '<strong>Valor: R$12,00.</strong>',
+      'Retirada na <strong>Secretaria Paroquial</strong> – Rua René Fernandes, nº 71, Jd. dos Oliveiras.',
+      'Mais informações: <strong>(19) 9 9241-0546</strong>.',
+      '<strong>Celebre a Páscoa em família com o Círio Pascal!</strong>'
+    ],
+    bencao: 'Santa Luzia, rogai por nos!',
+    destaques: [
+      { icone: 'calendario', titulo: 'retirada', valor: 'Secretaria Paroquial' },
+      { icone: 'relogio', titulo: 'valor', valor: ' R$12,00' }
+    ]
+  },
 };
 
 function getIconeSvg(tipo) {
