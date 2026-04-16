@@ -697,38 +697,46 @@ document.addEventListener('keydown', function (event) {
 });
 
 var eventosData = {
-  'santa-luzia': {
-    badge: 'Festa Patronal',
-    titulo: 'Festa de Sao Nicolau de Flue',
-    imagem: 'assets/São-Nicolau-de-Flüe.jpeg',
+  'visita-reliquia': {
+    badge: 'visita-reliquia ',
+    titulo: 'visita a reliquia de São Francisco de Assis',
+    imagem: 'assets/visita-reliquia.jpeg',
     texto: [
-      'Queridos irmãos e irmãs!',
-      'Convidamos toda a comunidade para a <strong>Semana do Padroeiro São Nicolau de Flüe</strong>.',
-      'Participe das missas e momentos de oração que acontecerão de <strong>18 a 21 de março, sempre às 19h30</strong>.',
-      'Encerramos com a <strong>Missa Solene do Padroeiro</strong> no dia 21 de março.',
-      'Venha celebrar conosco este momento especial de fé!'
+      '📢 <strong>Aviso Paroquial</strong>',
+      'A Paróquia Santa Luzia convida a todos para um momento muito especial de fé:',
+      '🙏 <strong>Peregrinação de São Francisco de Assis</strong>',
+      'na Comunidade Nossa Senhora de Fátima',
+      '✨ Visita da Relíquia de 1º grau de São Francisco de Assis',
+      '🖼️ Presença da Imagem Peregrina de São Francisco de Assis',
+      '✝️ Cruz de São Damião',
+      '🕊️ Em comunhão com o <strong>Ano Jubilar Franciscano – 800 anos da Páscoa de São Francisco de Assis (1226–2026)</strong>',
+      '⛪ <strong>Santa Missa</strong>',
+      '🗓️ Dia: <strong>22 de abril (quarta-feira)</strong>',
+      '⏰ Horário: <strong>19h30</strong>',
+      '📍 Local: Rua Agnaldo Macedo, 523',
+      'Jardim dos Oliveiras',
+      'Venha participar conosco deste momento de graça e devoção!'
     ],
     bencao: 'Santa Luzia, rogai por nos!',
     destaques: [
-      { icone: 'calendario', titulo: 'Data', valor: '21 de Março' },
-      { icone: 'relogio', titulo: 'Horario', valor: '19h30 - Missa Solene' }
+      { icone: 'calendario', titulo: 'Data', data: '22 de abril' },
+      { icone: 'relogio', titulo: 'Horario', horario: '19h30 - Missa Solene' }
     ]
   },
   'semana-santa': {
-    badge: 'Quaresma e Semana Santa 2026',
-    titulo: 'Programacao Especial',
-    imagem: 'assets/semana santa.jpeg',
+    badge: 'São Francisco de Assis',
+    titulo: 'Peregrinação de São Francisco de Assis',
+    imagem: 'assets/peregrinacao de sao francisco.jpeg',
     texto: [
-      'Queridos irmaos e irmas!',
-      'Compartilhamos a programacao da <strong>Quaresma</strong> (Ritos Penitenciais e Confissoes) e da <strong>Semana Santa</strong> em nossa paroquia.',
-      'Este e um tempo muito especial para renovarmos nossa fe, meditarmos a paixao, morte e ressurreicao de Nosso Senhor Jesus Cristo e caminharmos juntos como comunidade.',
-      'Convidamos voce e sua familia a participarem das celebracoes e momentos de oracao.',
-      '<strong>Confira a programacao na arte e venha viver conosco este tempo santo.</strong>'
+      'Queridos irmãos e irmãs!',
+      'Com alegria, compartilhamos a programação da <strong>Peregrinação de São Francisco de Assis</strong> em nossa paróquia.',
+      'Este será um tempo especial de graça, oração e comunhão, com a presença da relíquia, da imagem peregrina e da Cruz de São Damião.',
+      'Convidamos você e sua família a participarem desses momentos de fé nas comunidades.',
+      '<strong>Confira a programação na arte e venha viver conosco este momento especial!</strong>'
     ],
     bencao: 'Deus abencoe!',
     destaques: [
-      { icone: 'calendario', titulo: 'Ritos Penitenciais', valor: '30/03 a 01/04' },
-      { icone: 'cruz', titulo: 'Semana Santa', valor: '29/03 a 10/04' }
+      { icone: 'calendario', titulo: 'Data', valor: 'de 22 de abril a 19 de setembro' },
     ]
   },
   'cirio-pascal': {
