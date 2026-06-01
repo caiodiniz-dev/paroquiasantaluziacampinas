@@ -2489,9 +2489,8 @@ footer .dev a:hover {
 
 .eventos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
-  justify-content: center;
-  /* centraliza os cards */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
   gap: 2rem;
   margin-top: 2rem;
 }

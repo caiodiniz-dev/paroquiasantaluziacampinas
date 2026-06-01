@@ -864,6 +864,32 @@ var eventosData = {
       },
     ],
   },
+  "festa-junina": {
+    badge: "Festa Junina",
+    titulo: "Festa Junina da Paróquia Santa Luzia",
+    imagem: "assets/festa junina.jpeg",
+    texto: [
+      "Venha celebrar nossa tradicional <strong>Festa Junina</strong> com muita alegria e fé.",
+      "Teremos barracas típicas, comidas saborosas, música e brincadeiras para toda a família.",
+      "Participe desse encontro de comunidade e fortaleça os laços paroquiais.",
+      "Sua presença será uma bênção para nossa paróquia.",
+      "<strong>Traga a família e viva essa festa de gratidão e união.</strong>",
+    ],
+    bencao:
+      "Que esta festa traga alegria, comunhão e muitas bênçãos para todos.",
+    destaques: [
+      {
+        icone: "calendario",
+        titulo: "Datas",
+        valor: "30, 31/05 • 06, 07, 13 e 14/06",
+      },
+      {
+        icone: "relogio",
+        titulo: "Local",
+        valor: "Rua René Fernandes, 71",
+      },
+    ],
+  },
 };
 
 function getIconeSvg(tipo) {
